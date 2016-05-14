@@ -1,4 +1,6 @@
 # python-pks
 
-These are python packages which are not on PyPi, so we host them ourselves.
-The files are hosted in [Bintray](https://bintray.com/actioniq/python-pkgs/) for more info.
+These are python packages that we host in order to ensure a consistent environment.
+Otherwise source distributions get built each time with potentially different tools / libraries.
+
+
