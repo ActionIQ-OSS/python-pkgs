@@ -17,7 +17,7 @@ cat > $OUT << HEADER
     <h1>Index of $SDIST_ROOT</h1>
 HEADER
 
-for sdist in *.tar.gz *.zip *.tgz
+for sdist in *.tar.gz *.zip *.tgz *.whl
 do
   if [ -r "$sdist" ]
   then
