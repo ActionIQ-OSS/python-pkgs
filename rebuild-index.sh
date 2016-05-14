@@ -21,7 +21,7 @@ for sdist in *.tar.gz *.zip *.tgz *.whl
 do
   if [ -r "$sdist" ]
   then
-    echo "    <a href=\"$sdist\">$sdist</a>" >> $OUT
+    echo "    <a href=\"$sdist\">$sdist</a><br/>" >> $OUT
   fi
 done
 
