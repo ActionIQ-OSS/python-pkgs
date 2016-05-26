@@ -6,15 +6,14 @@ HERE=$(cd $(dirname $(readlink $0 || echo $0)) && pwd)
 cd $HERE
 
 OUT=index.html
-SDIST_ROOT=/pants/third_party/python
 
 cat > $OUT << HEADER
 <html>
   <head>
-    <title>Index of $SDIST_ROOT</title>
+    <title>Index of python-pkgs</title>
   </head>
   <body>
-    <h1>Index of $SDIST_ROOT</h1>
+    <h1>Index of python-pkgs</h1>
 HEADER
 
 for sdist in *.tar.gz *.zip *.tgz *.whl
