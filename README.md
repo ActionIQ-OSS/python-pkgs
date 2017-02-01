@@ -5,3 +5,5 @@ Otherwise source distributions get built each time with potentially different to
 The files are [hosted here] (http://actioniq.github.io/python-pkgs/) by GitHub Pages.
 
 Note we use [pyenv](https://github.com/yyuu/pyenv) in this repository.
+
+If you add/edit any packages here you should run `./rebuild-index.sh` to update the `index.html` file.
