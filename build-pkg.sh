@@ -7,3 +7,4 @@ if [[ $# -eq 0 ]]; then
 fi
 
 pip wheel --no-cache-dir --wheel-dir=. $1
+pip3 wheel --no-cache-dir --wheel-dir=. $1
