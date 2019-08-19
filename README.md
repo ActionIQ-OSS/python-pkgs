@@ -17,5 +17,5 @@ Same as above. Instead of a macosx version, it should be `none-linux`.
 
 ## Refreshing index
 
-After all whl files are built and copied to this repo directory in your git branch,
+After all whl files are built and copied to the root directory in your git branch,
 you'll need to rebuild the index by running `./rebuild-index.sh`.
