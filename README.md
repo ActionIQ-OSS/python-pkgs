@@ -6,6 +6,16 @@ The files are [hosted here](http://actioniq-oss.github.io/python-pkgs/) by GitHu
 
 Note we use [pyenv](https://github.com/yyuu/pyenv) in this repository.
 
-To add a package, use the `./build-pkg.sh` script.
+## Building for mac
 
-If you add/edit any packages here you should run `./rebuild-index.sh` to update the `index.html` file.
+Run `pip wheel foolib==1.2.3 --wheel-dir=./`. This should create a file called
+`foolib-1.2.3-xxx-macosx_<your mac osx version>_<arch>.whl`. 
+
+## Building for linux
+
+Same as above. Instead of a macosx version, it should be `none-linux`.
+
+## Refreshing index
+
+After all whl files are built and copied to the root directory in your git branch,
+you'll need to rebuild the index by running `./rebuild-index.sh`.
