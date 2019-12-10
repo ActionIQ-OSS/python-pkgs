@@ -8,7 +8,7 @@ Note we use [pyenv](https://github.com/yyuu/pyenv) in this repository.
 
 ## Building for mac
 
-Run `pip wheel foolib==1.2.3 --wheel-dir=./`. This should create a file called
+Run `pip wheel --no-cache-dir --wheel-dir=./ foolib==1.2.3`. This should create a file called
 `foolib-1.2.3-xxx-macosx_<your mac osx version>_<arch>.whl`. 
 
 ## Building for linux
